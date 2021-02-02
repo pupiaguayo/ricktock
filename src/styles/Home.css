@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .containerInit {
   color: white;
   display: flex;
@@ -6,4 +8,6 @@
   align-items: center;
   text-align: center;
   height: auto;
+  padding-top: 10vw;
+  font-family: 'Montserrat', sans-serif;
 }
