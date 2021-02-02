@@ -1,0 +1,30 @@
+.tarjeta {
+  display: flex;
+  border: solid 0.125em #426947;
+  background-color: #426947;
+  width: 9.375em;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0.625em auto;
+  border-radius: 0.625em;
+}
+.tarjeta h1 {
+  color: rgb(66, 66, 66);
+}
+.imgCard {
+  height: 6.25em;
+  width: 6.25em;
+}
+.titleCard {
+  font-size: 1.3em;
+  width: 100%;
+}
+p {
+  color: red;
+}
+.tarjeta:hover {
+  box-shadow: 0.625em 0.3125em 0.3125em rgb(46, 46, 46);
+  cursor: pointer;
+}

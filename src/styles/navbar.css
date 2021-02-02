@@ -1,0 +1,37 @@
+.navbar-edit {
+  margin: 0 90px;
+}
+.navbar-edit img {
+  width: 100px;
+  height: 70px;
+}
+.nav-edit {
+  margin: 0 auto;
+}
+.nav-links {
+  text-decoration: none;
+  color: white !important;
+  margin: 0 40px;
+}
+.nav-links:hover {
+  font-size: 18px;
+}
+.navbar-edit .toggle-edit {
+  border: 1px solid white !important;
+  cursor: pointer;
+  outline: none;
+}
+@media (max-width: 995px) {
+  .navbar-edit {
+    margin: 0 auto;
+  }
+  .navbar-edit img {
+    margin-left: 0;
+  }
+  .nav-edit {
+    margin: 0 auto;
+  }
+  .nav-links {
+    margin: 0;
+  }
+}
