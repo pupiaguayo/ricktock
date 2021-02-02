@@ -35,7 +35,7 @@ class PagePersonajes extends React.Component {
           {this.state.personajesSerie.map((item, i) => {
             return (
               <CardPersonajes
-                img="https://images-na.ssl-images-amazon.com/images/I/51ROLN1X8YL._AC_.jpg"
+                img={item.image}
                 nombrePersonaje={item.name}
                 especie={item.species}
                 estado={item.status}

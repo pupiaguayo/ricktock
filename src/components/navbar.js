@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/navbar.css";
 import * as ReactBootStrap from "react-bootstrap";
 import LogoRickAndMorty from "../LogoRickAndMorty.png";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="container">
@@ -11,8 +12,10 @@ function Navbar() {
         className="navbar-edit"
         id="home"
       >
-        <ReactBootStrap.Navbar.Brand href="#home" className="navbar-enlaces">
-          <img src={LogoRickAndMorty} alt="" />
+        <ReactBootStrap.Navbar.Brand className="navbar-enlaces">
+          <Link to="/">
+            <img src={LogoRickAndMorty} alt="" />
+          </Link>
         </ReactBootStrap.Navbar.Brand>
         <ReactBootStrap.Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -20,14 +23,14 @@ function Navbar() {
         />
         <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootStrap.Nav className="mr-auto nav-edit">
-            <ReactBootStrap.Nav.Link href="#descripcion" className="nav-links">
-              Home
+            <ReactBootStrap.Nav.Link to="/" className="nav-links">
+              <Link to="/">Home</Link>
             </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#proyectos" className="nav-links">
-              Episodios
+            <ReactBootStrap.Nav.Link className="nav-links">
+              <Link to="/episodios">Episodios </Link>
             </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#skills" className="nav-links">
-              Personajes
+            <ReactBootStrap.Nav.Link className="nav-links">
+              <Link to="/personajes">Personajes </Link>
             </ReactBootStrap.Nav.Link>
           </ReactBootStrap.Nav>
         </ReactBootStrap.Navbar.Collapse>
