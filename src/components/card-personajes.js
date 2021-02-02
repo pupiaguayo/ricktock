@@ -3,7 +3,7 @@ import "../styles/card-episodes.css";
 class CardPersonajes extends React.Component {
   render() {
     return (
-      <div className="col-4 col-lg-4">
+      <div className="col-lg-4">
         <div className="tarjeta">
           <img src={this.props.img} alt="" className="imgCard" />
           <p className="titleCard">Nombre: {this.props.nombrePersonaje}</p>

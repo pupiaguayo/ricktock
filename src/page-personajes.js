@@ -31,18 +31,20 @@ class PagePersonajes extends React.Component {
     return (
       <React.Fragment>
         <Navbar />
-        <div className="row">
-          {this.state.personajesSerie.map((item, i) => {
-            return (
-              <CardPersonajes
-                img={item.image}
-                nombrePersonaje={item.name}
-                especie={item.species}
-                estado={item.status}
-                key={i}
-              />
-            );
-          })}
+        <div className="container">
+          <div className="row">
+            {this.state.personajesSerie.map((item, i) => {
+              return (
+                <CardPersonajes
+                  img={item.image}
+                  nombrePersonaje={item.name}
+                  especie={item.species}
+                  estado={item.status}
+                  key={i}
+                />
+              );
+            })}
+          </div>
         </div>
       </React.Fragment>
     );

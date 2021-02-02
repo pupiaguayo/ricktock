@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 .tarjeta {
   display: flex;
   border: solid 0.125em #426947;
   background-color: #426947;
-  width: 500px;
-  height: auto;
+  width: 15.625em;
+  height: 18.75em;
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
   margin: 0.625em auto;
   border-radius: 0.625em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .tarjeta h1 {
   color: rgb(66, 66, 66);
@@ -19,10 +19,9 @@
 .imgCard {
   height: 6.25em;
   width: 6.25em;
-  
 }
 .titleCard {
-  font-size: 1.3em;
+  font-size: 1em;
   width: 100%;
   padding: 5px;
 }

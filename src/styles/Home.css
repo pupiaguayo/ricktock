@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 .containerInit {
   color: white;
@@ -9,5 +9,8 @@
   text-align: center;
   height: auto;
   padding-top: 10vw;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+.containerInit h5 {
+  margin-top: 3vw;
 }

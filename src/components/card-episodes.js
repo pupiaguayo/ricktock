@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class CardEpisodes extends React.Component {
   render() {
     return (
-      <div className="col-4 col-lg-4">
+      <div className="col-sm-6 col-lg-4">
         <div className="tarjeta">
           <img src={this.props.img} alt="" className="imgCard" />
           <p className="titleCard">Nombre: {this.props.nombre}</p>
